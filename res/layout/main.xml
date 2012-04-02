@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+<TextView android:id="@+id/myLocationText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hello"/>
+<com.google.android.maps.MapView android:id="@+id/myMapView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="0N6BGqIMFH5w-4eVLOc7pWZsxPJTzQwsK6qkQxQ" android:clickable="true" android:enabled="true"/>
+</LinearLayout>
